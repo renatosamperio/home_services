@@ -1,0 +1,3 @@
+[submodule "src/hs_utils"]
+	path = src/hs_utils
+	url = git@github.com:renatosamperio/hs_utils.git
