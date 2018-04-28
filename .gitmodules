@@ -1,3 +1,7 @@
 [submodule "src/hs_utils"]
 	path = src/hs_utils
 	url = git@github.com:renatosamperio/hs_utils.git
+[submodule "src/torrent_search"]
+	path = src/torrent_search
+	url = git@github.com:renatosamperio/torrent_search.git
+	branch = develop
