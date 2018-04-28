@@ -99,3 +99,13 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# ROS
+.catkin_tools/
+devel/
+logs/
+
+# Exlipse
+.project
+.pydevproject
+
