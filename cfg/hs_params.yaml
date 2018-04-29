@@ -1,0 +1,6 @@
+torrent_crawler: {
+  page_limit: 1000,
+  search_type: browse-movies,
+  with_magnet: true,
+  with_db: true
+}
