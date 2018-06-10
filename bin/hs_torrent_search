@@ -1,5 +1,6 @@
 #!/bin/bash
 
+export ROS_LOG_DIR=/opt/home_services/data/logs
 export HS_HOME=/opt/home_services/src/home_services
 source $HS_HOME/devel/setup.bash
 source /opt/home_services/src/home_services/devel/setup.bash
