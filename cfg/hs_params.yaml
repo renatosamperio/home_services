@@ -6,7 +6,7 @@ torrent_crawler: {
   
 }
 torrent_finder: {
-  list_term: /home/renato/workspace/projects/home_services/src/torrent_search/config/list_termx.txt,
+  list_term: /valid/path/list_termx.txt,
   slack_token: invalid-token-set-corrent-one,
   slack_channel: latest_torrents,
   latest_days: 3
