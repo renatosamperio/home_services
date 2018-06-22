@@ -5,9 +5,15 @@ torrent_crawler: {
   with_db: true,
   
 }
+
 torrent_finder: {
   list_term: /valid/path/list_termx.txt,
   slack_token: invalid-token-set-corrent-one,
   slack_channel: latest_torrents,
   latest_days: 3
+}
+
+imdb_collector: {
+  database: imdb,
+  collection: movies
 }
