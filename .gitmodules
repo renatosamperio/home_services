@@ -5,3 +5,7 @@
 	path = src/torrent_search
 	url = git@github.com:renatosamperio/torrent_search.git
 	branch = develop
+[submodule "src/imdb_collector"]
+	path = src/imdb_collector
+	url = git@github.com:renatosamperio/imdb_collector.git
+	branch = develop
