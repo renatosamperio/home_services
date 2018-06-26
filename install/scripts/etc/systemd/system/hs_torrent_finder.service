@@ -1,5 +1,5 @@
 [Unit]
-Description=HS Torrent Search
+Description=HS Latest Torrent finder
 Requires=network-online.target
 After=network.target
 
