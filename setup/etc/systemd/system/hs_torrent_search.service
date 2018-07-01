@@ -7,5 +7,5 @@ After=network.target
 User = base
 Group = adm
 Type=simple
-ExecStart=/opt/home_services/src/home_services/bin/hs_torrent_search
+ExecStart=/usr/local/bin/hs_torrent_search
 Restart=always
