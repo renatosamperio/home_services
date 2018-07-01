@@ -15,5 +15,6 @@ torrent_finder: {
 
 imdb_collector: {
   database: imdb,
-  collection: movies
+  collection: movies,
+  list_term: /valid/path/
 }
