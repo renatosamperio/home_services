@@ -6,4 +6,5 @@ export HS_HOME=/opt/home_services/src/home_services
 source $HS_HOME/devel/setup.bash
 
 # Publishing triggering message
+rosconsole set /imdb_collector rospy.internal ERROR
 rostopic pub /imdb_collector/collect_imdb_data torrent_search/torrentQuery "{database: 'limetorrents', collection: 'movies', search_type: 'crawl-torrents', page_limit: 10 }" -1;
