@@ -6,4 +6,4 @@ export HS_HOME=/opt/home_services/src/home_services
 source $HS_HOME/devel/setup.bash
  
 # Publishing triggering message
-roslaunch $HS_HOME/src/torrent_search/launch/torrent_finder.launch 
+stdbuf -o L roslaunch $HS_HOME/src/torrent_search/launch/torrent_finder.launch 
