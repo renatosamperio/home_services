@@ -20,3 +20,6 @@ sudo systemctl restart hs_torrent_finder.service
 sudo systemctl restart hs_torrent_imdb.service
 
 sudo systemctl daemon-reload
+
+## Edit crontab for trigger
+sudo /etc/init.d/cron reload
