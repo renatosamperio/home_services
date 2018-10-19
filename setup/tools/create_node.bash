@@ -11,6 +11,9 @@
 
 ## Remove repository
 ##  python create_github_repository.py -d -r test_created_repository -u USER -p PASSWORD
+
+## TODO: Left a path ros_template/ inside $1
+
 echo "=== Getting tools path"
 HOME_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
@@ -19,7 +22,7 @@ python $HOME_DIR/github_repository.py --create -r $1 -u $3 -p $4
 
 echo "=== Creating SRC path"
 if [ ! -d "$DIRECTORY" ]; then
-  mkdir src
+  mkdir -p src
 fi
 cd src
 
