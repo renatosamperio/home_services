@@ -37,11 +37,13 @@ sed "s/ros_template/$1/g" $1/package.xml >> $1/package.xml.new
 mv $1/package.xml.new $1/package.xml
 
 echo "=== Creating template node"
-sed "s/Sample/$2/g" $1/src/sample_node.py >> $1/src/sample_node.py.new
+sed "s/Sample/$2/g" $1/src/sample_node.py >> $1/src/sample_node.py.tmp
 ##TODO: Test the node name
-sed "s/sample/$1/g" $1/src/sample_node.py.new >> $1/src/sample_node.py.new
+sed "s/sample/$1/g" $1/src/sample_node.py.tmp >> $1/src/sample_node.py.new
+rm $1/src/sample_node.py.tmp
 mv $1/src/sample_node.py.new $1/src/sample_node.py
 mv $1/src/sample_node.py $1/src/$1.py
+chmod 755 $1/src/$1.py
 
 echo "=== Changing template URL"
 cd $1
