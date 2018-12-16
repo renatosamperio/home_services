@@ -9,3 +9,7 @@
 	path = src/imdb_collector
 	url = git@github.com:renatosamperio/imdb_collector.git
 	branch = develop
+[submodule "src/events_msgs"]
+	path = src/events_msgs
+	url = git@github.com:renatosamperio/events_msgs.git
+	branch = develop
