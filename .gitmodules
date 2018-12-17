@@ -9,3 +9,11 @@
 	path = src/imdb_collector
 	url = git@github.com:renatosamperio/imdb_collector.git
 	branch = develop
+[submodule "events_msgs"]
+	path = events_msgs
+	url = https://github.com/renatosamperio/events_msgs.git
+	branch = develop
+[submodule "event_locator"]
+	path = event_locator
+	url = git@github.com:renatosamperio/event_locator.git
+	branch = develop
