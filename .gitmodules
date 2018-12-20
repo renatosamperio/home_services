@@ -13,3 +13,7 @@
 	path = src/events_msgs
 	url = git@github.com:renatosamperio/events_msgs.git
 	branch = develop
+[submodule "src/event_locator"]
+	path = src/event_locator
+	url = git@github.com:renatosamperio/event_locator.git
+	branch = develop
