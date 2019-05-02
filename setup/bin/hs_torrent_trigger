@@ -6,4 +6,5 @@ export HS_HOME=/opt/home_services/src/home_services
 source $HS_HOME/devel/setup.bash
 
 # Publishing triggering message
+rosconsole set /torrent_crawler rospy.internal ERROR;
 rostopic pub /torrent_crawler/search_for_torrent torrent_search/torrentQuery "{database: 'limetorrents', collection: 'movies', search_type: 'browse-movies', page_limit: 1000 }" -1;
