@@ -17,3 +17,6 @@
 	path = src/event_locator
 	url = git@github.com:renatosamperio/event_locator.git
 	branch = develop
+[submodule "src/movie_catalog"]
+	path = src/movie_catalog
+	url = git@github.com:renatosamperio/movie_catalog.git
