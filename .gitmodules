@@ -21,3 +21,6 @@
 	path = src/movie_catalog
 	url = git@github.com:renatosamperio/movie_catalog.git
 	branch = develop
+[submodule "src/torrent_catalog"]
+	path = src/torrent_catalog
+	url = git@github.com:renatosamperio/torrent_catalog.git
